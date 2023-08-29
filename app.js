@@ -2,9 +2,6 @@ const fs = require('fs');
 const axios = require('axios');
 
 
-let path;
-let out;
-
 /** handle output: write to file if out given, else print */
 
 function handleOutput(text, out) {
